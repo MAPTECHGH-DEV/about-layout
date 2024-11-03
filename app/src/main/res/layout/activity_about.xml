@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About MAPTECH"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/aboutCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutTitle"
+        android:layout_marginTop="8dp"
+        app:cardElevation="12dp"
+        app:cardCornerRadius="12dp"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/aboutImage"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@mipmap/ic_launcher"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/about_image_desc"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/aboutDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAPTECH provides innovative solutions for enhanced productivity, security, and user experience. Join us to explore a world of advanced technologies."
+                android:textSize="16sp"
+                android:textColor="@color/colorText"
+                android:lineSpacingExtra="2dp"
+                android:paddingBottom="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/contactWhatsAppIcon"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_whatsapp_color"
+                    android:contentDescription="@string/whatsapp_icon_desc"
+                    android:layout_gravity="center"
+                    android:padding="12dp"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+                    android:id="@+id/contactTelegramIcon"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_telegram_color"
+                    android:contentDescription="@string/telegram_icon_desc"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:padding="12dp"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

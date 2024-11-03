@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#6200EE</color> <!-- Main color used for the app -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Dark variant for the status bar -->
+    <color name="colorAccent">#03DAC5</color> <!-- Color used for accents and highlights -->
+
+    <!-- Background and Surface Colors -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Default background color -->
+    <color name="colorSurface">#FFFFFF</color> <!-- Surface color for cards and dialogs -->
+
+    <!-- Text Colors -->
+    <color name="colorText">#000000</color> <!-- Default text color -->
+    <color name="colorTextSecondary">#757575</color> <!-- Secondary text color -->
+    <color name="colorHintText">#BDBDBD</color> <!-- Hint text color -->
+
+    <!-- Additional Colors -->
+    <color name="colorError">#B00020</color> <!-- Error color for error messages -->
+    <color name="colorSuccess">#4CAF50</color> <!-- Success color for success messages -->
+    <color name="colorWarning">#FF9800</color> <!-- Warning color for alerts -->
+
+    <!-- Custom Colors -->
+    <color name="customBlue">#2196F3</color> <!-- Custom blue color -->
+    <color name="customRed">#F44336</color> <!-- Custom red color -->
+</resources>
